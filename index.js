@@ -1,11 +1,14 @@
 // function greaterNum(number1,number2){
 //     if(number1 > number2){
 //         return console.log( number1 + " " + "მეტია" +" "+ number2+"-ზე")
+//     }else if(number1 == number2){
+//         return console.log( number1 +" " + "ტოლია" +" "+ number2+"-ის")
 //     }else{
 //         return console.log( number1 + " " + "ნაკლებია" +" "+ number2+"-ზე")
 //     }
 // }
 // console.log(greaterNum(3,5))
+// console.log(greaterNum(10,10))
 // console.log(greaterNum(10,5))
 
 // function helloWorld(langugue){
@@ -15,7 +18,7 @@
 //         return console.log("გამარჯობა მსოფიოვ!")
 //     }else (langugue = null)
 //     {
-//         return console.log("Default is English")
+//         return console.log("Default langugue is English")
 //     }
 // }
 // console.log(helloWorld("en"))
@@ -35,6 +38,8 @@
 //         return console.log("B")
 //     }else if (point <= 100){
 //         return console.log("A")
+//     }else{
+//         return console.log("Max point is 100!")
 //     }
 // }
 // console.log(assignGrade(5))
@@ -43,5 +48,6 @@
 // console.log(assignGrade(75))
 // console.log(assignGrade(85))
 // console.log(assignGrade(100))
+// console.log(assignGrade(110))
 
 
